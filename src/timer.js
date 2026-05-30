@@ -1,7 +1,5 @@
-// Countdown timer - 31 days from a fixed start date
-// Change this date to set your launch date
-const LAUNCH_DATE = new Date();
-LAUNCH_DATE.setDate(LAUNCH_DATE.getDate() + 31);
+// Countdown timer - ends on June 30, 2026 (31 days from May 30, 2026)
+const LAUNCH_DATE = new Date('2026-06-30T00:00:00');
 
 export function initCountdown() {
   const daysEl = document.getElementById('days');
