@@ -1,2 +1,4 @@
-// Animation handled via CSS @keyframes
-// This file exists for Vite module entry point
+import './style.css';
+import { initCountdown } from './timer.js';
+
+initCountdown();
